@@ -21,7 +21,7 @@
 
         {{- with $avatar := resources.Get .Site.Params.Author.avatar }}
 
-        <img class="w-12 h-12 bg-black rounded-full" src="{{ $avatar.Permalink }}" alt="{{ $name }} avatar" width="{{ $avatar.Width }}" height="{{ $avatar.Height }}">
+        <img class="w-12 h-12 bg-black rounded-full" src="{{ $avatar.RelPermalink}}" alt="{{ $name }} avatar" width="{{ $avatar.Width }}" height="{{ $avatar.Height }}">
 
         {{ end -}}
         
@@ -57,7 +57,7 @@
 
           {{- with $image := resources.Get .Params.image }}
             {{- $image := $image.Resize "750x" }}
-            <img class="rounded-lg" src="{{ $image.Permalink }}" alt="{{ .Params.title }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+            <img class="rounded-lg" src="{{ $image.RelPermalink}}" alt="{{ .Params.title }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
           {{- end }}
 
         {{- end }}

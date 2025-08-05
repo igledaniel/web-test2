@@ -2,7 +2,7 @@
 	<ul class="flex space-x-4 text-sm text-zinc-500">
 		{{- range .Ancestors.Reverse }}
 		<li class="after:content-['❯'] after:ml-4 after:opacity-30 last:after:content-none uppercase">
-			<a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+			<a href="{{ .RelPermalink}}">{{ .LinkTitle }}</a>
 		</li>
 		{{- end }}
 	</ul>
