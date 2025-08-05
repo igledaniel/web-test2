@@ -1,6 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = "https://igledaniel.github.io/web-test2/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+theme = 'pehtheme-hugo'
 
 [[menus.main]]
 name = 'Home'
