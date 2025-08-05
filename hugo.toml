@@ -7,7 +7,7 @@ theme = 'pehtheme-hugo'
 [params.author]
 name = 'Daniel'
 bio = 'A passionate writer exploring the wonders of space and astronomy'
-avatar = '/web-test2/images/default-placeholder.png'
+avatar = 'images/default-placeholder.png'
 
 [[menus.main]]
 name = 'Home'
