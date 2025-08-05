@@ -3,6 +3,12 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'pehtheme-hugo'
 
+[params]
+[params.author]
+name = 'Daniel'
+bio = 'A passionate writer exploring the wonders of space and astronomy'
+avatar = '/images/default-placeholder.png'
+
 [[menus.main]]
 name = 'Home'
 pageRef = '/'
